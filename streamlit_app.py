@@ -12,12 +12,12 @@ try:
   bmi = weight / height
 except ZeroDivisionError:
   st.write("Please give a valid number")
-
-if bmi >= 40.0:
-  st.write("You are obese")
-elif bmi >= 25.0:
-  st.write("You are overweight")
-elif bmi >=18.5:
-  st.write("You are normal")
 else:
-  st.write("You are underweight")
+  if bmi >= 40.0:
+    st.write("You are obese")
+  elif bmi >= 25.0:
+    st.write("You are overweight")
+  elif bmi >=18.5:
+    st.write("You are normal")
+  else:
+    st.write("You are underweight")
