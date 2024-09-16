@@ -13,8 +13,8 @@ bmi = weight / height
 if bmi >= 40.0:
   st.write("You are obese")
 elif bmi >= 25.0:
-  print("You are overweight")
+  st.write("You are overweight")
 elif bmi >=18.5:
-  print("You are normal")
+  st.write("You are normal")
 else:
-  print("You are underweight")
+  st.write("You are underweight")
