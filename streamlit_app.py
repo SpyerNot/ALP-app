@@ -9,7 +9,7 @@ with st.form(key='know_more_form'):
   st.form_submit_button("Submit")
 height = height * height
 bmi = weight / height
-if ZeroDivisionError:
+if ZeroDivisionError == True:
   st.write("Please put in a valid input")
 else:
   pass
