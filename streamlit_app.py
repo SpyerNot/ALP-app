@@ -1,6 +1,4 @@
 import streamlit as st
-import random as rd
-x = rd.randint(1,10)
 st.title("Our Health App!!")
 with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
@@ -12,7 +10,7 @@ with st.form(key='know_more_form'):
 height = height * height
 bmi = weight / height
 if bmi >= 40.0:
-  st.write(x)
+  st.write("You are obese")
 elif bmi >= 25.0:
   st.write("You are overweight")
 elif bmi >=18.5:
