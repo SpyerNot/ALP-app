@@ -11,7 +11,7 @@ with st.form(key='know_more_form'):
 height = height * height
 bmi = weight / height
 if bmi >= 40.0:
-  st.switch_page("pages/obesefile.py")
+  st.write("You are obese")
 elif bmi >= 25.0:
   print("You are overweight")
 elif bmi >=18.5:
