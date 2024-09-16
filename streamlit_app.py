@@ -9,6 +9,10 @@ with st.form(key='know_more_form'):
   st.form_submit_button("Submit")
 height = height * height
 bmi = weight / height
+if ZeroDivisionError:
+  pass
+else:
+  pass
 if bmi >= 40.0:
   st.write("You are obese")
 elif bmi >= 25.0:
