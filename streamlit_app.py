@@ -10,7 +10,7 @@ with st.form(key='know_more_form'):
 height = height * height
 bmi = weight / height
 if ZeroDivisionError:
-  pass
+  st.write("Please put in a valid input")
 else:
   pass
 if bmi >= 40.0:
