@@ -5,8 +5,8 @@ with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
   gender = st.selectbox("What is your gender?",["Female","Male"])
   age = st.text_input("Which year are you born?")
-  height = st.number_input("What is your height?",0.01,)
-  weight = st.number_input("What is your weight?",0.01,)
+  height = st.number_input("What is your height? (in meteres)",minValue=0.01)
+  weight = st.number_input("What is your weight? (in kilograms)",minValue=0.01,)
   st.form_submit_button("Submit")
 height = height * height
 bmi = weight / height
