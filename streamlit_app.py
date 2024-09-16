@@ -12,7 +12,6 @@ with st.form(key='know_more_form'):
 height = height * height
 bmi = weight / height
 if bmi >= 40.0:
-  st.write("You are obese")
   st.write(x)
 elif bmi >= 25.0:
   st.write("You are overweight")
