@@ -8,11 +8,11 @@ with st.form(key='know_more_form'):
   weight = st.number_input("What is your weight? (in kilograms)",0.00,)
   st.form_submit_button("Submit")
 height = height * height
-bmi = weight / height
-if ZeroDivisionError == True:
-  st.write("Please put in a valid input")
-else:
-  pass
+try:
+  bmi = weight / height
+except ZeroDivisionError:
+  st.write("Please give a valid number")
+
 if bmi >= 40.0:
   st.write("You are obese")
 elif bmi >= 25.0:
