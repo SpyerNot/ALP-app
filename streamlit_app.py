@@ -1,6 +1,6 @@
 import streamlit as st
-st.markdown("Log in page")
-st.sidebar.markdown("Main Page")
+st.page_link("streamlit_app.py", label='Main page')
+st.page_link("rewards.py",label='rewards')
 st.title("Our Health App!!")
 with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
