@@ -1,6 +1,4 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Our Health App!!")
+st.selectbox("What is your gender?",["Female","Male"])
