@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Welcome")
-st.page_link("pages/streamlit_app.py", label="Main Page")
+st.page_link("streamlit_app.py", label="Main Page")
 st.page_link("pages/rewards.py", label="Reward")
 st.page_link("pages/game.py", label="game")
 st.title("Our Health App!!")
