@@ -1,2 +1,2 @@
 import streamlit as st
-st.headers("Hello")
+st.set_page_config(page_title="Rewards")
