@@ -1,5 +1,7 @@
 import streamlit as st
+from page_functions import page1
 st.set_page_config(page_title="Welcome")
+pg = st.navigation([st.Page(page1),st.Page("rewards.py")]
 st.title("Our Health App!!")
 with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
