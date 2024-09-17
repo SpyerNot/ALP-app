@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit as st
 st.set_page_config(page_title="Welcome")
 st.title("Our Health App!!")
 with st.form(key='know_more_form'):
